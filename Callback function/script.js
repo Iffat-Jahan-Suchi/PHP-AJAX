@@ -45,9 +45,9 @@ function getCertificate() {
     console.log("Congress!!You are got a certificate");
 }
 
-enroll(function () {
+ enroll(function () {
     progress(getCertificate)
-});
+ });
 
 
 

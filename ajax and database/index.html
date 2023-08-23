@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container mx-auto mt-5">
+    <h3 class="text-center text-danger mt-3">Welcome to PHP and Ajax</h3>
+    <hr>
+<!--    Input Name: <input type="text" placeholder="Enter your name" id="myInput" class="form-control" onkeyup="show(this.value)">-->
+    <form action="index.php" method="get">
+        <label for="" class="text-success">Select Option</label>
+
+        <select name="names"  class="form-control" onchange="show(this.value)">
+            <option value="" disabled selected >--Select Name--</option>
+            <option value="shuchi">Shuchi</option>
+            <option value="shifat">shifat</option>
+        </select>
+    </form>
+    <div id="demo">User Information
+
+    </div>
+
+
+</div>
+
+
+<script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
